@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B55F9202BAF66E80051AB3D /* SprintClerkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F91F2BAF66E80051AB3D /* SprintClerkApp.swift */; };
+		7B55F9222BAF66E80051AB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F9212BAF66E80051AB3D /* ContentView.swift */; };
+		7B55F9242BAF66E80051AB3D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F9232BAF66E80051AB3D /* Item.swift */; };
+		7B55F9262BAF66E90051AB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B55F9252BAF66E90051AB3D /* Assets.xcassets */; };
+		7B55F9292BAF66E90051AB3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B55F9282BAF66E90051AB3D /* Preview Assets.xcassets */; };
+		7B55F9342BAF66E90051AB3D /* SprintClerkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F9332BAF66E90051AB3D /* SprintClerkTests.swift */; };
+		7B55F93E2BAF66E90051AB3D /* SprintClerkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F93D2BAF66E90051AB3D /* SprintClerkUITests.swift */; };
+		7B55F9402BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F93F2BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B55F9302BAF66E90051AB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B55F9142BAF66E80051AB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B55F91B2BAF66E80051AB3D;
+			remoteInfo = SprintClerk;
+		};
+		7B55F93A2BAF66E90051AB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B55F9142BAF66E80051AB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B55F91B2BAF66E80051AB3D;
+			remoteInfo = SprintClerk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B55F91C2BAF66E80051AB3D /* SprintClerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintClerk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B55F91F2BAF66E80051AB3D /* SprintClerkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkApp.swift; sourceTree = "<group>"; };
+		7B55F9212BAF66E80051AB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B55F9232BAF66E80051AB3D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7B55F9252BAF66E90051AB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B55F9282BAF66E90051AB3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B55F92A2BAF66E90051AB3D /* SprintClerk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SprintClerk.entitlements; sourceTree = "<group>"; };
+		7B55F92F2BAF66E90051AB3D /* SprintClerkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprintClerkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B55F9332BAF66E90051AB3D /* SprintClerkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkTests.swift; sourceTree = "<group>"; };
+		7B55F9392BAF66E90051AB3D /* SprintClerkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SprintClerkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B55F93D2BAF66E90051AB3D /* SprintClerkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkUITests.swift; sourceTree = "<group>"; };
+		7B55F93F2BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B55F9192BAF66E80051AB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F92C2BAF66E90051AB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F9362BAF66E90051AB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B55F9132BAF66E80051AB3D = {
+			isa = PBXGroup;
+			children = (
+				7B55F91E2BAF66E80051AB3D /* SprintClerk */,
+				7B55F9322BAF66E90051AB3D /* SprintClerkTests */,
+				7B55F93C2BAF66E90051AB3D /* SprintClerkUITests */,
+				7B55F91D2BAF66E80051AB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B55F91D2BAF66E80051AB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B55F91C2BAF66E80051AB3D /* SprintClerk.app */,
+				7B55F92F2BAF66E90051AB3D /* SprintClerkTests.xctest */,
+				7B55F9392BAF66E90051AB3D /* SprintClerkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B55F91E2BAF66E80051AB3D /* SprintClerk */ = {
+			isa = PBXGroup;
+			children = (
+				7B55F91F2BAF66E80051AB3D /* SprintClerkApp.swift */,
+				7B55F9212BAF66E80051AB3D /* ContentView.swift */,
+				7B55F9232BAF66E80051AB3D /* Item.swift */,
+				7B55F9252BAF66E90051AB3D /* Assets.xcassets */,
+				7B55F92A2BAF66E90051AB3D /* SprintClerk.entitlements */,
+				7B55F9272BAF66E90051AB3D /* Preview Content */,
+			);
+			path = SprintClerk;
+			sourceTree = "<group>";
+		};
+		7B55F9272BAF66E90051AB3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B55F9282BAF66E90051AB3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B55F9322BAF66E90051AB3D /* SprintClerkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B55F9332BAF66E90051AB3D /* SprintClerkTests.swift */,
+			);
+			path = SprintClerkTests;
+			sourceTree = "<group>";
+		};
+		7B55F93C2BAF66E90051AB3D /* SprintClerkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B55F93D2BAF66E90051AB3D /* SprintClerkUITests.swift */,
+				7B55F93F2BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift */,
+			);
+			path = SprintClerkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B55F91B2BAF66E80051AB3D /* SprintClerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B55F9432BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerk" */;
+			buildPhases = (
+				7B55F9182BAF66E80051AB3D /* Sources */,
+				7B55F9192BAF66E80051AB3D /* Frameworks */,
+				7B55F91A2BAF66E80051AB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SprintClerk;
+			productName = SprintClerk;
+			productReference = 7B55F91C2BAF66E80051AB3D /* SprintClerk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B55F92E2BAF66E90051AB3D /* SprintClerkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B55F9462BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerkTests" */;
+			buildPhases = (
+				7B55F92B2BAF66E90051AB3D /* Sources */,
+				7B55F92C2BAF66E90051AB3D /* Frameworks */,
+				7B55F92D2BAF66E90051AB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B55F9312BAF66E90051AB3D /* PBXTargetDependency */,
+			);
+			name = SprintClerkTests;
+			productName = SprintClerkTests;
+			productReference = 7B55F92F2BAF66E90051AB3D /* SprintClerkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B55F9382BAF66E90051AB3D /* SprintClerkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B55F9492BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerkUITests" */;
+			buildPhases = (
+				7B55F9352BAF66E90051AB3D /* Sources */,
+				7B55F9362BAF66E90051AB3D /* Frameworks */,
+				7B55F9372BAF66E90051AB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B55F93B2BAF66E90051AB3D /* PBXTargetDependency */,
+			);
+			name = SprintClerkUITests;
+			productName = SprintClerkUITests;
+			productReference = 7B55F9392BAF66E90051AB3D /* SprintClerkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B55F9142BAF66E80051AB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7B55F91B2BAF66E80051AB3D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7B55F92E2BAF66E90051AB3D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7B55F91B2BAF66E80051AB3D;
+					};
+					7B55F9382BAF66E90051AB3D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7B55F91B2BAF66E80051AB3D;
+					};
+				};
+			};
+			buildConfigurationList = 7B55F9172BAF66E80051AB3D /* Build configuration list for PBXProject "SprintClerk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B55F9132BAF66E80051AB3D;
+			productRefGroup = 7B55F91D2BAF66E80051AB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B55F91B2BAF66E80051AB3D /* SprintClerk */,
+				7B55F92E2BAF66E90051AB3D /* SprintClerkTests */,
+				7B55F9382BAF66E90051AB3D /* SprintClerkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B55F91A2BAF66E80051AB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55F9292BAF66E90051AB3D /* Preview Assets.xcassets in Resources */,
+				7B55F9262BAF66E90051AB3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F92D2BAF66E90051AB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F9372BAF66E90051AB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B55F9182BAF66E80051AB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55F9222BAF66E80051AB3D /* ContentView.swift in Sources */,
+				7B55F9242BAF66E80051AB3D /* Item.swift in Sources */,
+				7B55F9202BAF66E80051AB3D /* SprintClerkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F92B2BAF66E90051AB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55F9342BAF66E90051AB3D /* SprintClerkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B55F9352BAF66E90051AB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55F9402BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift in Sources */,
+				7B55F93E2BAF66E90051AB3D /* SprintClerkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B55F9312BAF66E90051AB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B55F91B2BAF66E80051AB3D /* SprintClerk */;
+			targetProxy = 7B55F9302BAF66E90051AB3D /* PBXContainerItemProxy */;
+		};
+		7B55F93B2BAF66E90051AB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B55F91B2BAF66E80051AB3D /* SprintClerk */;
+			targetProxy = 7B55F93A2BAF66E90051AB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B55F9412BAF66E90051AB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B55F9422BAF66E90051AB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7B55F9442BAF66E90051AB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SprintClerk/SprintClerk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SprintClerk/Preview Content\"";
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B55F9452BAF66E90051AB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SprintClerk/SprintClerk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SprintClerk/Preview Content\"";
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7B55F9472BAF66E90051AB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SprintClerk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SprintClerk";
+			};
+			name = Debug;
+		};
+		7B55F9482BAF66E90051AB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SprintClerk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SprintClerk";
+			};
+			name = Release;
+		};
+		7B55F94A2BAF66E90051AB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SprintClerk;
+			};
+			name = Debug;
+		};
+		7B55F94B2BAF66E90051AB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRNGV5PHUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = silfen.me.SprintClerkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SprintClerk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B55F9172BAF66E80051AB3D /* Build configuration list for PBXProject "SprintClerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B55F9412BAF66E90051AB3D /* Debug */,
+				7B55F9422BAF66E90051AB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B55F9432BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B55F9442BAF66E90051AB3D /* Debug */,
+				7B55F9452BAF66E90051AB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B55F9462BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B55F9472BAF66E90051AB3D /* Debug */,
+				7B55F9482BAF66E90051AB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B55F9492BAF66E90051AB3D /* Build configuration list for PBXNativeTarget "SprintClerkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B55F94A2BAF66E90051AB3D /* Debug */,
+				7B55F94B2BAF66E90051AB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B55F9142BAF66E80051AB3D /* Project object */;
+}
