@@ -5,11 +5,13 @@
 //  Created by Dean Silfen on 3/23/24.
 //
 
+import ClerkKit
 import SwiftUI
 import SwiftData
 
 @main
 struct SprintClerkApp: App {
+    @State var standup = Standup(today: .mock, yesterday: .completedDay)
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,7 +27,7 @@ struct SprintClerkApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TodayView(standup: $standup)
         }
         .modelContainer(sharedModelContainer)
     }
