@@ -20,17 +20,17 @@ public struct Day {
 public extension Day {
     static var mock: Day {
         Day(title: "Today", todos: [
-            .init(text: "Build the day view"),
-            .init(text: "Go for a walk with your family"),
-            .init(text: "finish reading your book", isComplete: true)
+            .init(id: "1", text: "Build the day view"),
+            .init(id: "2", text: "Go for a walk with your family"),
+            .init(id: "3", text: "finish reading your book", isComplete: true)
         ])
     }
 
     static var completedDay: Day {
         Day(title: "Yesterday", todos: [
-            .init(text: "Build the day view", isComplete: true),
-            .init(text: "Go for a walk with your family", isComplete: true),
-            .init(text: "finish reading your book", isComplete: true)
+            .init(id: "4",text: "Build the day view", isComplete: true),
+            .init(id: "5",text: "Go for a walk with your family", isComplete: true),
+            .init(id: "6",text: "finish reading your book", isComplete: true)
         ])
     }
 }

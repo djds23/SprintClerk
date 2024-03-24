@@ -29,6 +29,8 @@ struct SprintClerkApp: App {
         WindowGroup {
             TodayView(standup: $standup)
         }
+        .keyboardShortcut(KeyEquivalent("y"), modifiers: [.command, .shift])
+        .keyboardShortcut(KeyEquivalent("t"), modifiers: [.command, .shift])
         .modelContainer(sharedModelContainer)
     }
 }

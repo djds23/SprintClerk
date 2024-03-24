@@ -16,6 +16,8 @@
 		7B55F93E2BAF66E90051AB3D /* SprintClerkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F93D2BAF66E90051AB3D /* SprintClerkUITests.swift */; };
 		7B55F9402BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B55F93F2BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift */; };
 		7B9FB3DB2BAF686C000297E0 /* ClerkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B9FB3DA2BAF686C000297E0 /* ClerkKit */; };
+		7BBE67522BAFD18100427773 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE67512BAFD18100427773 /* TodayView.swift */; };
+		7BBE67542BAFD3E800427773 /* IsCollapsed+Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE67532BAFD3E800427773 /* IsCollapsed+Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7B55F93D2BAF66E90051AB3D /* SprintClerkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkUITests.swift; sourceTree = "<group>"; };
 		7B55F93F2BAF66E90051AB3D /* SprintClerkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintClerkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7B9FB3D82BAF67DE000297E0 /* ClerkKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ClerkKit; sourceTree = "<group>"; };
+		7BBE67512BAFD18100427773 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		7BBE67532BAFD3E800427773 /* IsCollapsed+Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsCollapsed+Environment.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				7B55F91F2BAF66E80051AB3D /* SprintClerkApp.swift */,
+				7BBE67512BAFD18100427773 /* TodayView.swift */,
 				7B55F9212BAF66E80051AB3D /* ContentView.swift */,
 				7B55F9232BAF66E80051AB3D /* Item.swift */,
 				7B55F9252BAF66E90051AB3D /* Assets.xcassets */,
 				7B55F92A2BAF66E90051AB3D /* SprintClerk.entitlements */,
 				7B55F9272BAF66E90051AB3D /* Preview Content */,
+				7BBE67532BAFD3E800427773 /* IsCollapsed+Environment.swift */,
 			);
 			path = SprintClerk;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B55F9222BAF66E80051AB3D /* ContentView.swift in Sources */,
+				7BBE67542BAFD3E800427773 /* IsCollapsed+Environment.swift in Sources */,
 				7B55F9242BAF66E80051AB3D /* Item.swift in Sources */,
+				7BBE67522BAFD18100427773 /* TodayView.swift in Sources */,
 				7B55F9202BAF66E80051AB3D /* SprintClerkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

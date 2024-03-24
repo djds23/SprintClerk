@@ -20,13 +20,16 @@ public struct TodoView: View {
                     todo.isComplete.toggle()
                 }, label: {
                     image
-                    Text(verbatim: todo.text)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    Text(verbatim: todoDateFormatter.string(from: todo.addedAt))
                 })
             .accessibilityAddTraits(.isToggle)
-            .strikethrough(todo.isComplete)
+            TextField("What needs to get done?", 
+                      text: $todo.text,
+                                     prompt: Text("enter a long phrase to see how it scrolls"),
+                                     axis: .horizontal)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            Text(verbatim: todoDateFormatter.string(from: todo.addedAt))
         }
+        .strikethrough(todo.isComplete)
     }
 
     @ViewBuilder
@@ -43,9 +46,9 @@ public struct TodoView: View {
 
 #Preview {
     Group {
-        TodoView(todo: .constant(.init(text: "Make the todoView", isComplete: false)))
+        TodoView(todo: .constant(.init(id: "1", text: "Make the todoView", isComplete: false)))
             .padding()
-        TodoView(todo: .constant(.init(text: "Make the todoView", isComplete: true)))
+        TodoView(todo: .constant(.init(id: "2", text: "Make the todoView", isComplete: true)))
             .padding()
     }
 }
