@@ -11,7 +11,7 @@ import SwiftData
 
 @main
 struct SprintClerkApp: App {
-    @State var standup = Standup(today: .mock, yesterday: .completedDay)
+    @State var standup = Standup(today: .emptyDay, yesterday: .completedDay)
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -27,10 +27,13 @@ struct SprintClerkApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TodayView(standup: $standup)
+            StandupView(standup: $standup)
         }
         .keyboardShortcut(KeyEquivalent("y"), modifiers: [.command, .shift])
         .keyboardShortcut(KeyEquivalent("t"), modifiers: [.command, .shift])
         .modelContainer(sharedModelContainer)
     }
 }
+
+
+

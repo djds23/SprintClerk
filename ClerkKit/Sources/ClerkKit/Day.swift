@@ -26,6 +26,10 @@ public extension Day {
         ])
     }
 
+    static var emptyDay: Day {
+        Day(title: "Today", todos: [])
+    }
+
     static var completedDay: Day {
         Day(title: "Yesterday", todos: [
             .init(id: "4",text: "Build the day view", isComplete: true),
